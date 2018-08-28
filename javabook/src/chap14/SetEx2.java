@@ -14,6 +14,19 @@ class Person {
 	public String toString() {
 		return "("+ name + "," + age + ")";
 	}
+	@Override
+	public boolean equals(Object obj) {
+		if(obj instanceof Person) {
+			Person p = (Person)obj;
+			return 
+			name.equals(p.name) && age == p.age;
+		}
+		else  return false;	
+	}
+	@Override
+	public int hashCode() {
+		return name.hashCode() + age;
+	}
 }
 public class SetEx2 {
 	public static void main(String[] args) {
