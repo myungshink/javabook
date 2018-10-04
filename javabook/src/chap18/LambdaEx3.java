@@ -6,13 +6,13 @@ interface LambdaInterface3 {
 }
 public class LambdaEx3 {
 	public static void main(String[] args) {
-		LambdaInterface3 f2;
-		f2 = (x)-> {
+		LambdaInterface3 f3;
+		f3 = (x)-> {
 			System.out.println(x * 5);
 		};
-		f2.method(2); //10
-		f2.method(20);//100
-		f2 = x-> System.out.println(x * 5);
-		f2.method(30);//150
+		f3.method(2); //10
+		f3.method(20);//100
+		f3 = x-> System.out.println(x * 5);
+		f3.method(30);//150
 	}
 }
