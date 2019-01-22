@@ -5,12 +5,16 @@ import java.util.List;
 
 abstract class Figure {
 	String type;
+	public Figure(String type) {
+		this.type = type;
+	}
 	public abstract double area();
 	public abstract double length();
 }
 class Rectangle extends Figure {
     int w,h;
     Rectangle(int w, int h) {
+    	super("사각형");
     	this.w = w;
     	this.h = h;
     }
@@ -30,6 +34,7 @@ class Rectangle extends Figure {
 class Circle extends Figure {
 	int r;
 	Circle(int r) {
+		super("사각형");
     	this.r = r;
     }
 	@Override

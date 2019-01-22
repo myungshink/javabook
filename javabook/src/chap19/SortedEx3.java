@@ -9,6 +9,10 @@ abstract class Figure2 implements Comparable<Figure2>{
 	String type;
 	public abstract double area();
 	public abstract double length();
+	public Figure2(String type) {
+		this.type = type;
+	}
+	
 	@Override
 	public int compareTo(Figure2 f) {
 		return (int)(area() - f.area());
@@ -18,6 +22,7 @@ abstract class Figure2 implements Comparable<Figure2>{
 class Rectangle2 extends Figure2 {
     int w,h;
     Rectangle2(int w, int h) {
+    	super("사각형");
     	this.w = w;
     	this.h = h;
     }
@@ -37,6 +42,7 @@ class Rectangle2 extends Figure2 {
 class Circle2 extends Figure2 {
 	int r;
 	Circle2(int r) {
+		super("원");
     	this.r = r;
     }
 	@Override
