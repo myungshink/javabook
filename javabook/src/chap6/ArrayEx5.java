@@ -6,8 +6,7 @@ public class ArrayEx5 {
 	public static void main(String[] args) {
 		int digit[] = {2,8,10,16};
 		char arr[] = new char[32];
-		char data[] = {'0','1','2','3','4','5','6',
-			'7','8','9','A','B','C','D','E','F'};
+		char data[] = {'0','1','2','3','4','5','6',	'7','8','9','A','B','C','D','E','F'};
 		Scanner scan = new Scanner(System.in);
 		System.out.println("변환할 10진수를 입력하세요");
 		int num = scan.nextInt();

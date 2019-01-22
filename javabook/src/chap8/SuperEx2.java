@@ -22,8 +22,7 @@ class Child2 extends Parent2 {
 public class SuperEx2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Child2 c2 = new Child2();
+		c2.method();
 	}
-
 }

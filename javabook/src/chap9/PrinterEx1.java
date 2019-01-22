@@ -20,7 +20,7 @@ class PrinterManager {
 			return new LazerZet();
 	}
 }
-public class PrinterEx {
+public class PrinterEx1 {
 	public static void main(String[] args) {
 		Printerable able = PrinterManager.getPrinter("INK");
 		able.print();

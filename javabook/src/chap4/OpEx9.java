@@ -1,17 +1,24 @@
 package chap4;
 
-import java.util.Scanner;
-
 public class OpEx9 {
-
 	public static void main(String[] args) {
-		System.out.println("점수를  입력하세요(0~100)");
-		Scanner scan = new Scanner(System.in);
-		int score = scan.nextInt();
-		String result = (score>=60)?"합격":"불합격";
-		System.out.println(score + ":" + result);
-		System.out.println( score + ":" + ((score%2==0)?"짝수":"홀수"));
-
+		int num = 100; //100을 num 변수에 대입.
+		System.out.println(num); //100
+		num += 10;  //num = num + 10; 의미
+		System.out.println(num); //110
+		num /= 10;  //num = num / 10
+		System.out.println(num); //11
+		num *= 2 + 3; //num = num * (2+3)
+		System.out.println(num); //55
+		
+		byte b = 1;
+		b *= 2; //b = b * 2
+		System.out.println(b); //2
+		b *= 2; //b = b * 2
+		System.out.println(b); //4
+		b *= 2; //b = b * 2
+		System.out.println(b); //8
+		b = (byte) (b * 2);
+		System.out.println(b); //16
 	}
-
 }

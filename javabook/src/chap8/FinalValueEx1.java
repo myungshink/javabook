@@ -12,7 +12,7 @@ class FinalValue {
 		return NUM;
 	}
 }
-public class FinalValueEx {
+public class FinalValueEx1 {
 	public static void main(String[] args) {
 		FinalValue f1 = new FinalValue();
 		System.out.println(f1.getNUM());
@@ -23,9 +23,3 @@ public class FinalValueEx {
 		// f2.NUM = 100; //error
 	}
 }
-
-
-
-
-
-
