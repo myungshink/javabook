@@ -5,11 +5,11 @@ import java.net.UnknownHostException;
 
 public class InetAddressEx {
 	public static void main(String[] args) throws UnknownHostException {
-		InetAddress ip = InetAddress.getByName("www.mesedu.com");
+		InetAddress ip = InetAddress.getByName("www.goodee.co.kr");
 		System.out.println("getByName 메서드 호출");
 		System.out.println("hostname:" + ip.getHostName());
 		System.out.println("ip address:" + ip.getHostAddress());
-		InetAddress[] ips = InetAddress.getAllByName("www.mesedu.com");
+		InetAddress[] ips = InetAddress.getAllByName("www.goodee.co.kr");
 		System.out.println("getAllByName 메서드 호출");
 		for (InetAddress i : ips) {
 			System.out.println("ip 주소:" + i);

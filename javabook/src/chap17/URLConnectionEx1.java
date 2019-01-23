@@ -3,7 +3,7 @@ package chap17;
 import java.net.*;
 import java.io.*;
 
-public class URLConnectionEx {
+public class URLConnectionEx1 {
 	public static void main(String args[]) {
 		URL url = null;
 		String address = "http://www.goodee.co.kr";

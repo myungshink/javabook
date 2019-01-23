@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Properties;
-public class PropertiesEx {
+public class PropertiesEx1 {
 	public static void main(String[] args) throws IOException {
 		Properties pr = new Properties();
 		FileInputStream fis =new FileInputStream("a.properties");

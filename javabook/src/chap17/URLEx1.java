@@ -6,7 +6,7 @@ import java.io.Reader;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class URLEx {
+public class URLEx1 {
 	public static void main(String[] args) throws MalformedURLException {
 		URL url1 = null, url2 = null;
 		url1 = new URL("http://www.goodee.co.kr");
