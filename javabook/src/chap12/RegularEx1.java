@@ -2,7 +2,7 @@ package chap12;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-//[예제 12-31]
+//[예제 12-32]
 public class RegularEx1 {
 	public static void main(String[] args) {
 		String[] patterns = {"."     ,"[a-z]?","[0-9]+","0[1-9]*","^[0-9]",

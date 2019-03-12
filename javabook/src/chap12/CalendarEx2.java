@@ -1,6 +1,6 @@
 package chap12;
 
-//[예제 12-28]
+//[예제 12-29]
 import java.util.Calendar;
 
 public class CalendarEx2 {

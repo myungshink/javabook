@@ -2,7 +2,7 @@ package chap12;
 
 import java.util.Calendar;
 
-//[예제 12-27]
+//[예제 12-28]
 public class CalendarEx1 {
 	public static void main(String[] args) {
 		Calendar today = Calendar.getInstance();

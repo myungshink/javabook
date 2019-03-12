@@ -2,7 +2,7 @@ package chap12;
 
 import java.util.Arrays;
 
-//[예제 12-29]
+//[예제 12-30]
 public class ArraysEx1 {
 	public static void main(String[] args) {
 		String[] arr = { "월매", "이몽룡", "향단", "방자" };
