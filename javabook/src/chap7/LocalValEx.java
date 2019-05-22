@@ -1,5 +1,5 @@
 package chap7;
-//[예제 7-4]
+//[예제 7-4]  : grade 변수를  초기화 하지 않아 오류 발생 
 public class LocalValEx {
 	public static void main(String[] args) {
 		int num;
