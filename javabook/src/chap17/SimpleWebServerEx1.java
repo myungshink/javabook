@@ -54,6 +54,7 @@ public class SimpleWebServerEx1 {
 				System.out.println("사용자 요청 파일:" + fileName);
 				fbr = new BufferedReader(new FileReader(fileName));
 				String fileLine = null;
+				pw.println("HTTP/1.0 200 OK\r\nContent-Type: text/html\r\n\r\n");
 				while ((fileLine = fbr.readLine()) != null) {
 					pw.println(fileLine);
 					pw.flush();
